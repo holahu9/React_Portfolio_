@@ -1,7 +1,7 @@
 // rafce 
 import React from 'react';
-import {FaFacebookF, FaTwitter, FaLinkedinIn, FaGithub, FaPlay} from 'react-icons/fa';
-import image from "./dd.png";
+import {FaFacebookF, FaTwitter, FaLinkedinIn, FaGithub} from 'react-icons/fa';
+import image from "./img/dd.png";
 
 const Banner = () => {
     return (

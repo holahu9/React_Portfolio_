@@ -1,9 +1,9 @@
-import PlusOne from "./PlusOne.png";
-import BookMovie from "./Movie.png";
-import Employee from "./Employee.png";
-import weatherforecast from "./weatherforecast.png";
-import CodeQuiz from "./CodeQuiz.png";
-import WorkSchedule from "./WorkSchedule.png";
+import PlusOne from "./img/PlusOne.png";
+import BookMovie from "./img/Movie.png";
+import Employee from "./img/Employee.png";
+import weatherforecast from "./img/weatherforecast.png";
+import CodeQuiz from "./img/CodeQuiz.png";
+import WorkSchedule from "./img/WorkSchedule.png";
 
 const cardInfo = [
     {
