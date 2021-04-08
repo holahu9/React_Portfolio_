@@ -6,7 +6,17 @@ By using multiple react dependencies and a bootstrap framework, I was able to cr
 
 ## Output
 
+![Screen Shot 2021-04-08 at 6 22 02 PM](https://user-images.githubusercontent.com/70487513/114104660-4b8ecc80-9899-11eb-9907-4c8d618f2eb5.png)
 
+
+![Screen Shot 2021-04-08 at 6 22 30 PM](https://user-images.githubusercontent.com/70487513/114104670-4e89bd00-9899-11eb-923a-c479de0154ea.png)
+
+
+
+![Screen Shot 2021-04-08 at 6 22 55 PM](https://user-images.githubusercontent.com/70487513/114104674-50538080-9899-11eb-957a-1c1da9ab6cd3.png)
+
+
+## Deployed Link
 
 
 
