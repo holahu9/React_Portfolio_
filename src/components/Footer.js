@@ -1,30 +1,57 @@
-import React from 'react'
+import React from 'react';
+//import {Link} from "react-scroll";
+import { EmailIcon, EmailShareButton, FacebookIcon, FacebookShareButton, LinkedinShareButton, LinkedinIcon } from "react-share";
 
 const Footer = () => {
     return (
-        <footer className="footer">
-            <div className="container" style={{backgroundColor: '#1B1A1D'}}>
+        <div className="footer">
+            <div className="container">
                 <div className="row">
-                <div className="navbar_left col-lg-6 col-xs-12">
-                    <h2>Heading</h2>
-                    <p className="pr-5 text-white-50">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac ante mollis quam tristique convallis </p>
-                </div>
-                <div className="foot-mid navbar_right col-lg-6 col-xs-12">
-                    <h2>Location</h2>
-                    <p> 4521 EA, Bethesda, MD, 20814</p>
-                    <p>(202) 802-4818</p>
-                    <p>jackmol3@gmail.com</p>
-                </div>
-                </div>
-                <div className="navbar_right row mt-5">
-                <div className="col copyright">
-                    <p className><small className="text-white-50">© 2021. All Rights Reserved.</small></p>
-                </div>
-                </div>
-      </div>
-      </footer>
-    );
-  }
+                    <div className="col-lg-4 col-md-6 col-sm-6">
+                        <div className="d-flex">
+                            <p>Duc Dinh</p>
+                        </div>
+                        <div className="d-flex">
+                            <p>2028024818</p>
+                        </div>
+                        <div className="d-flex">
+                            <p>jackmol3@gmail.com</p>
+                        </div>
+                    </div>
+                    
+                    <div className="col-lg-5 col-md-5 col-sm-6 align-items-center">
+                    <div className="d-flex justify-content-center">
+                        <LinkedinShareButton 
+                        url={"https://www.linkedin.com/in/duc-dinh-5013a9bb/"}
+                        quote={"FullStack Developer"}
+                        hashtag="#javascript"
+                        >
+                            <LinkedinIcon className="mx-3" size={36}/>
+                        </LinkedinShareButton>
+                        <EmailShareButton 
+                        url={""}
+                        >         
+                            <EmailIcon className="mx-3" size={36}/>
+                        </EmailShareButton>
+                        
+                        <FacebookShareButton 
+                        url={"https://www.facebook.com/thienduc.dinh"}
+                        >         
+                            <FacebookIcon className="mx-3" size={36}/>
+                        </FacebookShareButton>
 
+                    </div>
+                    <p className="p-3 text-center">
+                        Copyright&copy;
+                        {new Date().getFullYear()}&nbsp;Duc Dinh | All Rights Reserved
+                    </p>
+
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    )
+}
 
 export default Footer;

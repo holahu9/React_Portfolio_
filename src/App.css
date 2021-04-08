@@ -178,7 +178,7 @@ h3{
 
 
 .contacts {
-  background: #47464b;
+  background: #38373a;
   padding: 3rem 0;
   color: white;
 }
@@ -201,7 +201,7 @@ h3{
   text-align: center;
   resize:none;
   border:0;
-  border-bottom: 0.1rem solid rgb(224, 128, 144);
+  border-bottom: 0.1rem solid rgb(19, 17, 18);
   border-radius: 0;
   color: var(--primary-white);
   outline: 0 !important;
@@ -263,4 +263,29 @@ textarea.form-control {
   color: var(--primary-white);
   background: var(--secondary-green);
   text-align: left;
+}
+
+
+.footer {
+ 
+  color: var(--primary-white);
+  padding: 3rem;
+  background: #1B1A1D;
+}
+
+.footer a {
+  text-decoration: none;
+  color: var(--secondary-pink);
+}
+
+.footer a:hover{
+  text-decoration: none;
+  color: var(--secondary-green);
+  cursor: pointer;
+
+}
+
+.footer p {
+  margin-bottom: 0;
+  color: white;
 }
