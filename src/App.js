@@ -5,7 +5,7 @@ import Banner from "./components/Banner";
 import Nav from "./components/Nav";
 import Footer from "./components/Footer";
 import Portfolio from "./components/Portfolio";
-//import Media from "./components/Media";
+import Contacts from "./components/Contacts";
 function App() {
   return (
     <Router basename={`${process.env.PUBLIC_URL}/`}>
@@ -13,6 +13,7 @@ function App() {
           <Route exact path="/" component={Banner} />
           <Route exact path="/home" component={Banner} />
           <Route exact path="/portfolio" component={Portfolio}/>
+          <Route exact path="/contact" component={Contacts}/>
           
       <Footer />
     </Router>

@@ -174,3 +174,93 @@ h3{
   font-size:x-large;
   color:rgb(206, 97, 130)
 }
+
+
+
+.contacts {
+  background: #47464b;
+  padding: 3rem 0;
+  color: white;
+}
+
+.contacts h1 {
+  color: var(--primary-white);
+  padding: 3rem 0;
+  text-transform: uppercase;
+}
+
+.contacts p {
+  color: var(--primary-white);
+  font-size: 2rem;}
+
+  .contacts input,
+.contacts textarea {
+  
+  width:100%;
+  box-sizing: border-box;
+  text-align: center;
+  resize:none;
+  border:0;
+  border-bottom: 0.1rem solid rgb(224, 128, 144);
+  border-radius: 0;
+  color: var(--primary-white);
+  outline: 0 !important;
+  box-shadow: none !important;
+  margin-bottom: 1rem;
+  padding-left: 0 !important;
+ 
+  
+}
+
+.contacts .container {
+  padding: 2rem 0;
+
+}
+
+.contacts input:focus, .contacts textarea:focus {
+  background: transparent;
+  color: var(--secondary-pink);
+  border-bottom: 0.125rem solid var(--primary-white);
+}
+
+.contacts textarea {
+  height: 12.2rem !important;
+  width: 500px;
+  
+  
+}
+
+.contact-btn {
+  margin: 1rem 0 0 0;
+  width: 100%;
+  background: none;
+}
+
+.line {
+  position: relative;
+  top: -.8rem;
+  width: 0;
+  height: 0.125rem;
+  background: var(--secondary-pink);
+  display: inline-block;
+}
+
+input:focus+.line,
+textarea:focus+.line {
+  width: 100%;
+  transition: width 0.5s ease-in-out;
+}
+
+input.form-control {
+  margin: -0.3rem 0;
+}
+
+textarea.form-control {
+  margin: -0.3rem 0;
+}
+
+.error-message {
+  color: var(--primary-white);
+  background: var(--secondary-green);
+  text-align: left;
+}

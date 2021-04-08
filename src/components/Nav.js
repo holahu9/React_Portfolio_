@@ -18,7 +18,7 @@ const Nav = () => {
                         <ul className="list">
                             <li><Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>Home</Link></li>
                             <li><Link to="/portfolio" className={location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}>Portfolio</Link></li>
-                            <li><Link to="/media" className={location.pathname === "/media" ? "nav-link active" : "nav-link"}>Media</Link></li>
+                            <li><Link to="/contact" className={location.pathname === "/media" ? "nav-link active" : "nav-link"}>Contact</Link></li>
                         </ul>
 
                     </div>
