@@ -5,10 +5,12 @@ import image from "./img/dd.png";
 
 const Banner = () => {
     return (
+    
         <header className="header">
+            
             <div className="container">
                 <div className="row">
-                    <div className="col-6">
+                    <div className="col-lg-6 col-xm-12">
                         <ul className="header_ul">
                             <li><FaFacebookF /></li>
                             <li><FaTwitter/></li>
@@ -35,15 +37,16 @@ const Banner = () => {
                     
                     </div>
 
-                    <div className="col-6">
+                    <div className="col-lg-6 col-xm-12">
                         <img className = "pic" src={image} alt="photo"></img>
 
                     </div>
 
                 </div>
             </div>
+            
         </header>
     )
 }
 
-export default Banner
+export default Banner;

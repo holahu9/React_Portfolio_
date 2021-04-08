@@ -1,5 +1,4 @@
 import React from 'react';
-//import {Link} from "react-scroll";
 import { EmailIcon, EmailShareButton, FacebookIcon, FacebookShareButton, LinkedinShareButton, LinkedinIcon } from "react-share";
 
 const Footer = () => {
@@ -12,10 +11,13 @@ const Footer = () => {
                             <p>Duc Dinh</p>
                         </div>
                         <div className="d-flex">
-                            <p>2028024818</p>
+                            <p>Tel: (202)-802-4818</p>
                         </div>
                         <div className="d-flex">
-                            <p>jackmol3@gmail.com</p>
+                            <p>Email: jackmol3@gmail.com</p>
+                        </div>
+                        <div className="d-flex">
+                            <p>Bethesda,MD</p>
                         </div>
                     </div>
                     
