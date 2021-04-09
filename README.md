@@ -7,7 +7,7 @@ By using multiple react dependencies and a bootstrap framework, I was able to cr
 
 ## Deployed Link:
 
-
+https://holahu9.github.io/React_Portfolio_Duc/#/React_Portfolio_Duc/
 
 ## Output:
 
