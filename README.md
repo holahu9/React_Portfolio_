@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## REACT-PORTFOLIO
 
 ## Description:
@@ -12,6 +13,27 @@ By using multiple react dependencies and a bootstrap framework, I was able to cr
 
 
 
+=======
+###  REACT-PORTFOLIO
+
+## Description
+
+By using multiple react dependencies and a bootstrap framework, I was able to create a stylish and functional website with my latest bootcamp projects. This used multiple components to create a one-page portfolio.
+
+## Output
+
+![Screen Shot 2021-04-08 at 6 22 02 PM](https://user-images.githubusercontent.com/70487513/114104660-4b8ecc80-9899-11eb-9907-4c8d618f2eb5.png)
+
+
+![Screen Shot 2021-04-08 at 6 22 30 PM](https://user-images.githubusercontent.com/70487513/114104670-4e89bd00-9899-11eb-923a-c479de0154ea.png)
+
+
+
+![Screen Shot 2021-04-08 at 6 22 55 PM](https://user-images.githubusercontent.com/70487513/114104674-50538080-9899-11eb-957a-1c1da9ab6cd3.png)
+
+
+## Deployed Link
+>>>>>>> 2293c1704eeb4d1db8b6f10504e5d29d8233ec57
 
 
 
