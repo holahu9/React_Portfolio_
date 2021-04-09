@@ -6,7 +6,7 @@ const Footer = () => {
         <div className="footer">
             <div className="container">
                 <div className="row">
-                    <div className="col-lg-4 col-md-6 col-sm-6">
+                    <div className="col-lg-6 col-md-6 col-sm-6">
                         <div className="d-flex">
                             <p>Duc Dinh</p>
                         </div>
@@ -21,7 +21,7 @@ const Footer = () => {
                         </div>
                     </div>
                     
-                    <div className="col-lg-5 col-md-5 col-sm-6 align-items-center">
+                    <div className="col-lg-6 col-md-6 col-sm-6 align-items-center">
                     <div className="d-flex justify-content-center">
                         <LinkedinShareButton 
                         url={"https://www.linkedin.com/in/duc-dinh-5013a9bb/"}
